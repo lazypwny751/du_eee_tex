@@ -1,0 +1,33 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[turkish]{babel}
+\usepackage[a4paper]{geometry}
+\usepackage{ragged2e}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\setmainfont{Times New Roman}
+\geometry{margin=2.7cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+\justifying
+
+\titleformat{\section}
+  {\normalfont\bfseries\Large}
+  {\thesection}{1em}
+  {\MakeUppercase}
+\titlespacing*{\section}{0pt}{1.5\baselineskip}{\baselineskip}
+
+\titleformat{\subsection}
+  {\normalfont\bfseries\Large}
+  {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{\baselineskip}{0.5\baselineskip}
+
+\titleformat{\subsubsection}
+  {\normalfont\bfseries\Large}
+  {\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{\baselineskip}{0.5\baselineskip}

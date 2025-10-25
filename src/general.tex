@@ -3,12 +3,22 @@
 \input{../themes/general.sty}
 
 \begin{document}
-    \begin{titlepage}
-        \centering
-        \begin{figure}[h]
-            \centering
-            \includegraphics{src/images/header.png}\\[2.5cm]
-            \label{fig:header}
-        \end{figure}
-    \end{titlepage}
+
+\input{src/chapters/00-title.tex}
+
+\pagenumbering{gobble} 
+\vfill
+\newpage
+
+\tableofcontents % toc.
+\vfill
+\newpage
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{src/chapters/01-giris.tex} % from root: src/chapters/01-giris.tex
+\newpage
+
 \end{document}

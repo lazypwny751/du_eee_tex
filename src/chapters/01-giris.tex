@@ -1,0 +1,71 @@
+\section{GİRİŞ}
+LaTeX, aslında bir programlama dili değil, ama bir “belge yazma sistemi”. 
+Yani Word gibi görüyorsun ama işin biraz daha kodlama gibi. 
+Mesela metin, başlık, resim, tablo, matematik denklemleri vs. 
+her şeyi özel komutlarla yazıyorsun.
+
+Avantajı şu: yazdığın şey hep düzgün hizalanıyor, 
+özellikle matematik ve bilimsel yazılarda sayfa düzeni çok güzel oluyor. 
+Mesela denklem yazmak istersen tek bir satırla yapıyorsun:
+
+\subsection{Temel Matematik Denklemleri}
+
+\begin{enumerate}
+\item \subsubsection{Enerji ve kütle ilişkisini gösteren ünlü denklem nedir?}
+\[
+E = mc^2
+\]
+
+\item \subsubsection{Dik üçgende kenarların ilişkisini ifade eden formül nedir?}
+\[
+\sqrt{a^2 + b^2} = c
+\]
+\[
+\sqrt{a^2 + b^2} = c
+\]
+
+\item \subsubsection{Klasik mekanikte bir cismin kinetik enerjisi nasıl hesaplanır?}
+\[
+KE = \frac{1}{2} m v^2
+\]
+
+\item \subsubsection{1’den n’ye kadar olan sayıların toplamı nasıl bulunur?}
+\[
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+\]
+
+\item \subsubsection{Sonsuz integralin basit bir örneği nedir?}
+\[
+\int_0^\infty e^{-x} dx = 1
+\]
+
+\item \subsubsection{Genel ikinci dereceden fonksiyon nasıl yazılır?}
+\[
+f(x) = ax^2 + bx + c
+\]
+
+\item \subsubsection{2x2 boyutunda bir matris örneği verin:}
+\[
+\begin{pmatrix}
+1 & 2 \\
+3 & 4
+\end{pmatrix}
+\]
+
+\end{enumerate}
+
+ve LaTeX bunu otomatik güzel bir şekilde sayfaya koyuyor.
+
+Bir de “paket” denilen ek modüller var. 
+Mesela resim eklemek için graphicx paketini kullanıyorsun, 
+tablolar için tabular var vs. Böylece her şeyi tek tek formatlamana gerek kalmıyor.
+
+Çalıştırması da basit: bir .tex dosyası oluşturuyorsun, 
+sonra \texttt{xelatex dosya.tex} komutuyla PDF’e çeviriyorsun. 
+PDF çıktı alıyorsun, Word gibi ama daha stabil ve düzenli.
+
+Kısacası LaTeX, metinleri kod gibi yazıp, 
+sonunda çok düzgün, profesyonel görünümlü belgeler almak için kullanılan bir araç. 
+Başta biraz uğraştırabilir ama alışınca çok rahat ediyorsun, aynı zamanda akademik 
+çalışmalar için de gayet verimli bir araç hem güçlü matematik motoru hem de istikrarlı
+yapısı sayesinde çoğu profesörün yıllar bildiği ve kullandığı bir ekosistemdir.

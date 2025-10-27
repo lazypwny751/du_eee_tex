@@ -2,7 +2,7 @@
 
 ![du_eee_header](src/images/header.png)
 
-My pre-pdf templating and defaulting for Duzce University via LaTeX.
+My pre-pdf templating and defaulting for Duzce University via LaTeX/TeX.
 
 ## TODO
 - add antet for internship report(themes/antet.sty) will used by "src/internship.tex".
